@@ -81,3 +81,28 @@ O Domain-Driven Design ficou por último porque ele é mais uma filosofia/concei
 Exemplo: se o produto é um aplicativo de convênio as funções devem se chamar marcaConsulta, formularioDoPreExame...
 
 ## Teste funcional ou não funcional
+
+### Testes funcionais ou caixa preta
+
+Entra nesse conceito todos os que testam comportabilidade (entradas e saídas)
+
+- Testes unitários
+- Testes de integração
+- Testes de aceitação
+- Testes de sistemas
+
+### Testes não funcionais
+
+O conceito de testes não funcionais se refere a todos os testes que não estão relacionados a comportamentos funcionais. Alguns exemplos do que entra como teste não funcional:
+
+- Desempenho
+- Performance
+- Se a UI é intuitiva e fácil de aprender
+
+## :tada: E PRA FINALIZAR :tada:
+
+Usuário não é tester 
+
+<p align="center">
+  <img scr="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/testado-no-ar.gif" />
+</p>
