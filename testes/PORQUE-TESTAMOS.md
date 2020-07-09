@@ -1,5 +1,9 @@
 # Por que testar a aplicação?
 
+<p align="center">
+  <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/pq-testar.gif" />
+</p>
+
 ## Qualidade:
 
 Quando se testa é possível confirmar características que classificam uma aplicação com qualidade.  
