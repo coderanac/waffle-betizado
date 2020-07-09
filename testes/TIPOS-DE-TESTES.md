@@ -104,5 +104,5 @@ O conceito de testes não funcionais se refere a todos os testes que não estão
 Usuário não é tester 
 
 <p align="center">
-  <img scr="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/testado-no-ar.gif" />
+  <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/testado-no-ar.gif" />
 </p>
