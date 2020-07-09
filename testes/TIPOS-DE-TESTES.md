@@ -75,11 +75,6 @@ Vantagens: um design de código muito mais clean e livre de redundâncias e um c
 
 Dan, o criador do BDD, diz que ela é uma evolução do TDD. Para ele o desenvolvimento deveria ir muito além das pessoas técnicas e juntar todas as pessoas envolvidas no produto.
 
-## Ainda na onda dos DD temos o DDD 
-
-O Domain-Driven Design ficou por último porque ele é mais uma filosofia/conceito. Ele diz que o "idioma" do seu código deve ser o mesmo do modelo de negócio.
-Exemplo: se o produto é um aplicativo de convênio as funções devem se chamar marcaConsulta, formularioDoPreExame...
-
 ## Teste funcional ou não funcional
 
 ### Testes funcionais ou caixa preta
