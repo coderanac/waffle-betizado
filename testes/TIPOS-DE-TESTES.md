@@ -48,6 +48,31 @@ Exemplo:
 
 Agora quero testar se quando eu abro meu site aparece um popup perguntando meu nome e se quando eu escrevo meu nome e envio, recebo um olá com meu nome na tela. Isso é um teste e2e.
 
-## Diferenças entre BDD, TDD e ODD
+## Diferenças entre BDD e TDD 
+
+O TDD (Test Driven Development) é uma metodologia de desenvolviment de softwares que visa escrever primeiro testes e, posteriormente, funções que passem nesses testes. O BDD (Behavior Driven Development) é uma técnica de desenvolvimento ágil que pratica apresentar ao desenvolvedor o comportamento esperado de uma feature x e deixar que ele escolha a melhor forma de implementa-lá, e assim como no TDD primeiro se escrevem os testes e posteiormente códigos. A diferença entre os dois é que no TDD a função é definida, no BDD o comportamento é definido, mas a escolha da forma de execução é de responsabilidade do Dev. 
+
+### TDD - red-green-refactor 
+
+- Você cria um teste para uma função
+- Ele falha porque você está testando algo que não funciona
+- Então você escreve um teste "burrinho" só para passar no teste
+- E agora é hora de refatorar: melhorar o código e transformá-lo num código muito inteligente
+
+Vantagens: um design de código muito mais clean e livre de redundâncias e um código muito mais escalável e mutável.
+
+### BDD 
+
+- Envolve todos os responsáveis pelo produto
+- Deve ter requisitos legíveis
+- Os requisitos devem ser convertidos em testes executáveis
+- Usa mocks para os testes para os recursos que ainda não foram escritos
+
+Dan, o criador do BDD, diz que ela é uma evolução do TDD. Para ele o desenvolvimento deveria ir muito além das pessoas técnicas e juntar todas as pessoas envolvidas no produto.
+
+## Ainda na onda dos DD temos o DDD 
+
+O Domain-Driven Design ficou por último porque ele é mais uma filosofia/conceito. Ele diz que o "idioma" do seu código deve ser o mesmo do modelo de negócio.
+Exemplo: se o produto é um aplicativo de convênio as funções devem se chamar marcaConsulta, formularioDoPreExame...
 
 ## Teste funcional ou não funcional
