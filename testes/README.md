@@ -9,6 +9,9 @@
 ## Tipos de testes
 - [ ] Diferença entre teste unitário, integração e end-to-end (e2e).
 - [ ] Exemplos teóricos.
+- [ ] Diferença entre teste funcional e não funcional.
+- [ ] Exemplos teóricos.
+- [ ] Diferença entre BDD, TDD e ODD.
 
 
 ## Ferramentas para testes
