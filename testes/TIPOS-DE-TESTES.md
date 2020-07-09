@@ -50,6 +50,10 @@ Agora quero testar se quando eu abro meu site aparece um popup perguntando meu n
 
 ## Diferenças entre BDD e TDD 
 
+<p align="center">
+  <img width="600px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/tdd-vs-bdd.png" />
+</p>
+
 O TDD (Test Driven Development) é uma metodologia de desenvolviment de softwares que visa escrever primeiro testes e, posteriormente, funções que passem nesses testes. O BDD (Behavior Driven Development) é uma técnica de desenvolvimento ágil que pratica apresentar ao desenvolvedor o comportamento esperado de uma feature x e deixar que ele escolha a melhor forma de implementa-lá, e assim como no TDD primeiro se escrevem os testes e posteiormente códigos. A diferença entre os dois é que no TDD a função é definida, no BDD o comportamento é definido, mas a escolha da forma de execução é de responsabilidade do Dev. 
 
 ### TDD - red-green-refactor 
@@ -61,8 +65,9 @@ O TDD (Test Driven Development) é uma metodologia de desenvolviment de software
 
 Vantagens: um design de código muito mais clean e livre de redundâncias e um código muito mais escalável e mutável.
 
-### BDD 
+### BDD give-when-then
 
+- Estado inicial, ações, entregas esperadas
 - Envolve todos os responsáveis pelo produto
 - Deve ter requisitos legíveis
 - Os requisitos devem ser convertidos em testes executáveis
