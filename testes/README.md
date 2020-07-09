@@ -1,9 +1,9 @@
 # Testes :penguin:
 
 ## Por que testar?
-- [ ] O que melhora (performance, legibilidade, produto, qualidade)?
-- [ ] Por que o código melhora?
-- [ ] O que o teste melhora na produtividade?
+- [x] O que melhora (performance, legibilidade, produto, qualidade)?
+- [x] Por que o código melhora?
+- [x] O que o teste melhora na produtividade?
 
 
 ## Tipos de testes
