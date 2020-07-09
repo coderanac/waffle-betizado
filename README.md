@@ -1,2 +1,3 @@
-# waffle-betizado
-Meu repositório para me Wafflebetizar em Programação.
+# Waffle-betizado :alembic:
+
+Laboratório de Wafflebetização em Programação.
