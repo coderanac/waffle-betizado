@@ -11,7 +11,7 @@
 - [x] Exemplos teóricos.
 - [ ] Diferença entre teste funcional e não funcional.
 - [ ] Exemplos teóricos.
-- [ ] Diferença entre BDD, TDD e ODD.
+- [ ] Diferença entre BDD e TDD.
 
 
 ## Suite de testes
