@@ -2,10 +2,19 @@
  
 ### Mocha
 
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/mocha.gif" />
+</p>
+
 Com o Mocha consigo fazer testes `assíncronos`. Ele é uma estrutura de códigos Javascripts que pode ser rodado no `node.js` e nos `browsers`. Ele tem sua execução
 sincrona.
 
 ### Chai
+
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/chai.gif" />
+</p>
+
 
 O chai é uma biblioteca para asserts e pode ser usada em qualquer estrutura de testes Javascript. Ele tem uma interface legível e clara.
 
@@ -20,6 +29,11 @@ describe('dizOla', () => {
 ~~~
 
 ### SinonJs
+
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/spies.gif" />
+</p>
+
 
 O SinonJS é uma biblioteca de spies, stubs e mocks para testes unitários. E funciona com qualquer ferramenta de testes unitários.
 
@@ -40,6 +54,11 @@ bd.restore();
 
 ### Jest
 
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/jest.gif" />
+</p>
+
+
 Jest é framework para testes em Javascript. Ao contrário do Mocha, ele já tem seus próprios matchers, asserts, setups, mocks e outros recursos necessários para
 desenvolver os testes completos. Já o Mocha precisa de recursos externos como Chai, Sinon e Nock.
 
@@ -52,6 +71,11 @@ test('dizOla', () => {
 ~~~
 
 ### Jasmine
+
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/jasmine.gif" />
+</p>
+
 
 Jasmine é um framework de testes que segue o conceito de testes BDD (orientado a comportamento) para testar Javascript. Ela também tem uma sintaxe bem 
 limpa e objetiva.
@@ -67,6 +91,11 @@ describe('diz ola', () => {
 ~~~
 
 ### NockJs
+
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/nock.gif" />
+</p>
+
 
 O NockJS é uma lib para NodeJS que moca requisições HTTP. Ele é usado para interceptar uma requisição e simular um retorno.
 
@@ -88,6 +117,13 @@ test('can fetch test response', async t => {
   scope.done()
 })
 ~~~
+
+## Testes End-to-End
+
+<p align="center">
+ <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/e2e.gif" />
+</p>
+
 
 ### Selenium
 
