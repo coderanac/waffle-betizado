@@ -62,3 +62,23 @@ dizOla(expectedName, () => {});
 bd.verify();
 bd.restore();
 ~~~
+
+### Fakes
+
+<p align="center">
+  <img width="450px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/fake.gif" />
+</p>
+
+E por fim: fakes.  
+
+Fakes nada mais são que valores falsos criados para ver se um teste funciona. Nele não preciso de nenhuma biblioteca de suporte.  
+
+Ainda com a `dizOla`, agora ela deve receber uma string e retornar "Olá, {Nome}". O meu fake será a const name:
+
+~~~
+it('should say hello when you receive a name', () => {
+  const name = 'Carol';
+
+  expect(dizOla(name)).to.deep.a('Carol');
+});
+~~~
