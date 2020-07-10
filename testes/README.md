@@ -18,12 +18,12 @@
 
 O que são, pra que servem e exemplos:
 
-- [x] Suites e describes?
-- [x] Specs e its?
-- [x] Expectations?
-- [x] Matchers?
-- [x] Setups e teardown/hooks?
-- [x] Mocks, spies, stubs e fakes?
+- [x] Suites e describes
+- [x] Specs e its
+- [x] Expectations
+- [x] Matchers
+- [x] Setups e teardown/hooks
+- [x] Mocks, spies, stubs e fakes
 
 
 ## Ferramentas para testes
