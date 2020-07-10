@@ -34,7 +34,7 @@ Teste para analizar a parte externa da aplicação, a usabilidade.
 
 - Valida o fluxo de funcionamento da aplicação
 
-## Diferença entre unitário, integrado e 2e2
+## Diferença entre unitário, integrado e e2e
 
 <p align="center">
   <img width="300px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/unit.gif" />
