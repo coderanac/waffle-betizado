@@ -30,13 +30,13 @@ O que são, pra que servem e exemplos:
 
 O que é, pra que serve e diferenças:
 
-- [ ] Mocha
-- [ ] Chai
-- [ ] SinonJs
-- [ ] Jest
-- [ ] Jasmine
-- [ ] NockJs
-- [ ] Protactor
-- [ ] Cypress
-- [ ] Cucumber
-- [ ] Selenium
+- [x] Mocha
+- [x] Chai
+- [x] SinonJs
+- [x] Jest
+- [x] Jasmine
+- [x] NockJs
+- [x] Protactor
+- [x] Cypress
+- [x] Cucumber
+- [x] Selenium
