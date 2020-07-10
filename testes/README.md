@@ -23,7 +23,7 @@ O que são, pra que servem e exemplos:
 - [ ] Spectations?
 - [ ] Matchers?
 - [ ] Setups e teardown/hooks?
-- [ ] Mocks, spies, stubs e fakes?
+- [x] Mocks, spies, stubs e fakes?
 
 
 ## Ferramentas para testes
