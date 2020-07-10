@@ -20,9 +20,9 @@ O que são, pra que servem e exemplos:
 
 - [x] Suites e describes?
 - [x] Specs e its?
-- [ ] Expectations?
-- [ ] Matchers?
-- [ ] Setups e teardown/hooks?
+- [x] Expectations?
+- [x] Matchers?
+- [x] Setups e teardown/hooks?
 - [x] Mocks, spies, stubs e fakes?
 
 
