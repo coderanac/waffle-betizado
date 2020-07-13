@@ -46,6 +46,6 @@ Seja com TDD os testes normais, sempre que escrevemos testes a gente costuma rev
 
 Como desenvolvedores devemos nos preocupar em entregar aplicações concisas, seguras, que agreguem valores e que não arraste consigo débitos técnicos.
 Os testes são uma forma de garantir isso. Um código testado é revisado, refatorado, livrado de bugs e assim garantimos uma aplicação que entregue um real valor.  
-Testes bem escritos geram valor não apenas para o cliente, mas também para o time de desenvolvimento que recebe uma "documentação" da aplicação: Metoxo X deveria
+Testes bem escritos geram valor não apenas para o cliente, mas também para o time de desenvolvimento que recebe uma "documentação" da aplicação: Método X deveria
 fazer isso", além de encontrarem códigos legíveis.  
 E sempre é bom lembrar: teste 100% não significa teste bom. 
