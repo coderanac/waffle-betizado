@@ -2,8 +2,8 @@
 
 ## O que é, quais problemas resolve?
 
-- [ ] Libraries
-- [ ] Frameworks
+- [x] Libraries
+- [x] Frameworks
 - [ ] Components
 - [ ] Spa(Single-Page-Application)
 
