@@ -1,5 +1,9 @@
 # Libs e Frameworks
 
+<p align="center">
+  <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/framework-vs-lib.jpeg" />
+</p>
+
 As libs são ferramentas que solucionam problemas específicos, sejam eles como precisar trabalhar com visualização de dados interativos onde podemos usar o D3.js
 ou mesmo criar uma aplicação SPA onde podemos usar o React.
 Já os Frameworks oferecem uma solução completa para o desenvolvimento de uma aplicação, tendo na sua maioria um design de arquitetura muito bem definido, as
@@ -11,13 +15,13 @@ um framework você terá que instanciar toda sua aplicação sobre ele.
 Felizmente não existe uma resposta certa para isso, o que te deixa bem livre para experienciar cada um deles e ver qual resolve melhor seu problema.
 Algumas coisas a se levar em consideração
 
-- Arquitetura
+- Arquitetura  
 Vou usar como exemplo o Angular, ele já define uma estrutura de boas práticas e de design de arquitetura, porque seu objetivo é transformar o desenvolvimento
 web mais fácil.
 Já na lib você tem mais liberdade para implementar a arquitetura que quiser. Na própria documentação do React eles falam que não opinam na arquitetura que
 você optar por usar.
 
-- Dependências
+- Dependências  
 O Angular já conta com uma injeção de depenências internas, já o React precisa que instalemos soluções externas para completá-lo.
 
 ## Mas qual usar?
