@@ -9,10 +9,10 @@
 # REACT
 
 ## Entender como funciona a renderização de valores nos componentes
-- [ ] Como renderizar strings
-- [ ] Como renderizar Objetos
-- [ ] Como renderizar um Arrays de strings
-- [ ] Como renderizar um Array de Objetos
-- [ ] Como renderizar um Array de Objetos com outro Array dentro
-- [ ] Como atualizar esse valor renderizado
+- [x] Como renderizar strings
+- [x] Como renderizar Objetos
+- [x] Como renderizar um Arrays de strings
+- [x] Como renderizar um Array de Objetos
+- [x] Como renderizar um Array de Objetos com outro Array dentro
+- [x] Como atualizar esse valor renderizado
 - [ ] Porque temos que definir uma key no quando estamos renderizando Arrays?
