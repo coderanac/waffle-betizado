@@ -28,7 +28,7 @@ completo.
 
 ## [Components no Vue](https://br.vuejs.org/v2/guide/components.html)
 
-- São definidos com `Vue.component()`
+- Podem ser definidos com `Vue.component()` para serem globais na aplicação ou em um arquivo `.vue` com template, script e style
 - São instancias reutilizáveis
 - Aceitam:
   - Ciclo de vida
@@ -51,8 +51,7 @@ completo.
 - São funções Javascripts
 - Recebem props
 - Retornam elementos React
-- Podem ser declarados por meio de Classes
-- Podem ser declarados por meio de Funções
+- Podem ser declarados por meio de Classes ou Funções
 - Podem ser dinâmicos
 - Seu comportamento pode ser definido por props
 - Pode ser composto por outros components
