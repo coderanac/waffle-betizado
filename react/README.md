@@ -5,7 +5,6 @@
 - [x] Libraries
 - [x] Frameworks
 - [x] Components
-- [ ] Spa(Single-Page-Application)
 
 # REACT
 
