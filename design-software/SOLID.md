@@ -8,16 +8,22 @@ Ele foi criado para nos ajudar a organizar e manter nossos códigos. Deixando el
 
 ### S (SRP - Single Responsability principle)
 
+<img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/single.gif" />
+
 Esse é o princípio da responsabilidade única, ou seja, uma classe só deve ter uma responsabilidade e um único motivo para existir. Por exemplo:
 Se eu tenho um banco e nele eu guardo quem é meu cliente e qual é o cartão dele, posso ter uma classe que cria esse cliente e uma para o cartão, mas se apenas uma classe
 é responsável por esses dois trabalhos está errado segundo o SOLID, porque deixamos de ter um código limpo.
 
 ### O (OCP - Open-close principle)
 
+<img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/open-close.gif" />
+
 Esse princípio diz que objetos e entidades devem estar abertos à extensões e fechados para alterações. Que sempre que tivermos uma nova coisa a ser adicionada deveremos
 extender e não modificar o código fonte. Isso é para evitar Bugs em um código que já está funcionando.
 
 *** em alguns casos podemos substituir o método por uma interface.
+
+<img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/soup-letter.giff" />
 
 ### L (LSP - Liskov Substitution Principle)
 
