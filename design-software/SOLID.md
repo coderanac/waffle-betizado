@@ -23,7 +23,7 @@ extender e não modificar o código fonte. Isso é para evitar Bugs em um códig
 
 *** em alguns casos podemos substituir o método por uma interface.
 
-<img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/soup-letter.giff" />
+<img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/soup-letter.gif" />
 
 ### L (LSP - Liskov Substitution Principle)
 
