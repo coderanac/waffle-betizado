@@ -1,6 +1,10 @@
 # SOLID
 
 SOLID são 5 princípios da Programação Orientada a Objetos ([POO](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos)).
+Ele foi criado para nos ajudar a organizar e manter nossos códigos. Deixando ele mais objetivo e menos exposto a erros.
+<div style="align: center">
+  <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/Solid.png" />
+</div>
 
 ### S (SRP - Single Responsability principle)
 
