@@ -22,4 +22,4 @@
 [ ] OAuth +  
 [ ] CI / CD (Jenkins subir um docker)  
 [ ] K8s (Subir minikube e rodar apliacações)  
-[ ] Previsibilidade de historias
+[ ] Previsibilidade de historias 
