@@ -3,6 +3,7 @@
 ## O que você deve saber ao final desse caminho
 
 - [x] CSS in JS  
+ - Assista essa [palestra](https://www.youtube.com/watch?v=ufPCITfUQnQ) perfeita
 - [ ] Pré-compiladores +  
 - [ ] Frameworks vs Libraries  
 - [ ] Estudar VueJS +, Angular X  
