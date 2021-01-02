@@ -2,7 +2,7 @@
 
 ## Um resumo da história
 
-O css-in-js foi apresentado pela primeira vez na [React Conf em 2014 por Christopher Chedeau (vjeux)](https://speakerdeck.com/vjeux/react-css-in-js). Ele propunha
+O css-in-js foi apresentado pela primeira vez na [NationJS em 2014 por Christopher Chedeau (vjeux)](https://speakerdeck.com/vjeux/react-css-in-js). Ele propunha
 a solução para problemas como classes cruzadas, código "morto" que foi pintado mas já não deveria estar renderizado, redução de repetição de código, redução de classes globais,
 entre outros problemas na utilização do css puro no React.  
 O Angular já lidava muito bem com css encapsulado e escopado para módulos e páginas. O VueJS trouxe com ele também uma solução nativa de CSS escopado nativamente.
