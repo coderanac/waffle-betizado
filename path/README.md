@@ -4,10 +4,10 @@
 
 - [x] CSS in JS  
  - Assista essa [palestra](https://www.youtube.com/watch?v=ufPCITfUQnQ) perfeita
-- [ ] Pré-compiladores +  
-- [ ] Frameworks vs Libraries  
-- [ ] Estudar VueJS +, Angular X  
-- [ ] Entender o que é o Virtual DOM e para que serve  
+- [x] Pré-compiladores +  
+- [x] Frameworks vs Libraries  
+- [x] Estudar VueJS +, Angular X  
+- [x] Entender o que é o Virtual DOM e para que serve  
 - [ ] Diferença entre Reatividade e Imutabilidade  
 - [ ] Diferenças Pre-render, Server-side-rendering  
 - [ ] Atomic design  
