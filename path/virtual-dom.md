@@ -1,6 +1,6 @@
-#Virtual dom 
-O virtual dom foi criado para tornar a renderização no Real Dom mais performática. Ele atua em 3 etapas:  
+# Virtual DOM
+The Virtual DOM was created to make rendering to the Real DOM more performant. It operates in 3 steps:
 
-Na primeira ele cria o Real dom, depois ele faz uma cópia virtual dele e por último ele faz faz as atualizações.  
-Ou seja, ele tem em memória uma cópia virtual do Real Dom, e a partir daí ele identifica as alterações que ocorrem em layout, css ou ações e atualiza somente o que foi alterado
-e essa alteração por sua vez não gera uma re-rendirizalção no Real Dom, pois o Virtual Dom processará essa mudança e irá refletir ela no Real Dom. 
+In the first step it creates the Real DOM, then it makes a virtual copy of it, and finally it applies the updates.  
+In other words, it keeps a virtual copy of the Real DOM in memory, and from there it identifies changes that occur in layout, CSS, or actions and updates only what changed.
+This change in turn does not trigger a re-render in the Real DOM, because the Virtual DOM processes the change and then reflects it in the Real DOM.

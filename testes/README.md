@@ -1,34 +1,34 @@
-# Testes :penguin:
+# Testing :penguin:
 
-## Por que testar?
-- [x] O que melhora (performance, legibilidade, produto, qualidade)?
-- [x] Por que o código melhora?
-- [x] O que o teste melhora na produtividade?
-
-
-## Tipos de testes
-- [x] Diferença entre teste unitário, integração e end-to-end (e2e).
-- [x] Exemplos teóricos.
-- [x] Diferença entre teste funcional e não funcional.
-- [x] Exemplos teóricos.
-- [x] Diferença entre BDD e TDD.
+## Why test?
+- [x] What does it improve (performance, readability, product, quality)?
+- [x] Why does the code improve?
+- [x] What does testing improve in productivity?
 
 
-## Suite de testes
+## Types of tests
+- [x] Difference between unit, integration, and end-to-end (e2e) tests.
+- [x] Theoretical examples.
+- [x] Difference between functional and non-functional tests.
+- [x] Theoretical examples.
+- [x] Difference between BDD and TDD.
 
-O que são, pra que servem e exemplos:
 
-- [x] Suites e describes
-- [x] Specs e its
+## Test suites
+
+What they are, what they're for, and examples:
+
+- [x] Suites and describes
+- [x] Specs and its
 - [x] Expectations
 - [x] Matchers
-- [x] Setups e teardown/hooks
-- [x] Mocks, spies, stubs e fakes
+- [x] Setups and teardown/hooks
+- [x] Mocks, spies, stubs, and fakes
 
 
-## Ferramentas para testes
+## Testing tools
 
-O que é, pra que serve e diferenças:
+What they are, what they're for, and their differences:
 
 - [x] Mocha
 - [x] Chai
@@ -36,7 +36,7 @@ O que é, pra que serve e diferenças:
 - [x] Jest
 - [x] Jasmine
 - [x] NockJs
-- [x] Protactor
+- [x] Protractor
 - [x] Cypress
 - [x] Cucumber
 - [x] Selenium

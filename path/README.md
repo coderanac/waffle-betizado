@@ -1,26 +1,26 @@
 # PATH
 
-## O que você deve saber ao final desse caminho
+## What you should know by the end of this path
 
 - [x] CSS in JS  
- - Assista essa [palestra](https://www.youtube.com/watch?v=ufPCITfUQnQ) perfeita
-- [x] Pré-compiladores +  
+ - Watch this [perfect talk](https://www.youtube.com/watch?v=ufPCITfUQnQ)
+- [x] Pre-compilers +  
 - [x] Frameworks vs Libraries  
-- [x] Estudar VueJS +, Angular X  
-- [x] Entender o que é o Virtual DOM e para que serve  
-- [ ] Diferença entre Reatividade e Imutabilidade  
-- [ ] Diferenças Pre-render, Server-side-rendering  
+- [x] Study VueJS +, Angular X  
+- [x] Understand what the Virtual DOM is and what it's for  
+- [ ] Difference between Reactivity and Immutability  
+- [ ] Differences between Pre-render and Server-side-rendering  
 - [ ] Atomic design  
 - [ ] Micro frontends  
-- [ ] Micro servicos  
+- [ ] Micro services  
 - [ ] JS / Call Stack, Event Loop  
 - [ ] Node & Typescript +  
-- [ ] Testes VueJS / Jest +  
-- [ ] Restfull +  
+- [ ] VueJS / Jest tests +  
+- [ ] RESTful +  
 - [ ] GraphQL +  
 - [ ] Websocket + ~ -  
-- [ ] Autenticação +  
+- [ ] Authentication +  
 - [ ] OAuth +  
-- [ ] CI / CD (Jenkins subir um docker)  
-- [ ] K8s (Subir minikube e rodar apliacações)  
-- [ ] Previsibilidade de historias 
+- [ ] CI / CD (Jenkins spin up a docker)  
+- [ ] K8s (Spin up minikube and run applications)  
+- [ ] Story estimation

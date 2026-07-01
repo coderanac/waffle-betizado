@@ -1,33 +1,33 @@
-# Libs e Frameworks
+# Libs and Frameworks
 
 <p align="center">
   <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/framework-vs-lib.jpeg" />
 </p>
 
-As libs são ferramentas que solucionam problemas específicos, sejam eles como precisar trabalhar com visualização de dados interativos onde podemos usar o D3.js
-ou mesmo criar uma aplicação SPA onde podemos usar o React.
-Já os Frameworks oferecem uma solução completa para o desenvolvimento de uma aplicação, tendo na sua maioria um design de arquitetura muito bem definido, as
-próprias ferramentas para um desenvolvimento ponta a ponta inclusos. E ao contrário das libs, que podem ser usadas em uma pequena parte da aplicação, para usar
-um framework você terá que instanciar toda sua aplicação sobre ele.
+Libraries are tools that solve specific problems, whether it's needing to work with interactive data visualization where we can use D3.js,
+or even creating an SPA where we can use React.
+Frameworks, on the other hand, offer a complete solution for application development, mostly with a very well-defined architecture design and their
+own tools for end-to-end development included. And unlike libs, which can be used in a small part of the application, to use
+a framework you will have to build your entire application on top of it.
 
-## Qual é o melhor
+## Which one is better?
 
-Felizmente não existe uma resposta certa para isso, o que te deixa bem livre para experienciar cada um deles e ver qual resolve melhor seu problema.
-Algumas coisas a se levar em consideração
+Fortunately there is no right answer to that, which leaves you quite free to experience each of them and see which one solves your problem best.
+Some things to consider:
 
-- Arquitetura  
-Vou usar como exemplo o Angular, ele já define uma estrutura de boas práticas e de design de arquitetura, porque seu objetivo é transformar o desenvolvimento
-web mais fácil.
-Já na lib você tem mais liberdade para implementar a arquitetura que quiser. Na própria documentação do React eles falam que não opinam na arquitetura que
-você optar por usar.
+- Architecture  
+I'll use Angular as an example — it already defines a structure of best practices and architecture design, because its goal is to make web
+development easier.
+With a lib you have more freedom to implement whatever architecture you want. In React's own documentation they say they have no opinion on the architecture
+you choose to use.
 
-- Dependências  
-O Angular já conta com uma injeção de depenências internas, já o React precisa que instalemos soluções externas para completá-lo.
+- Dependencies  
+Angular already includes built-in dependency injection, while React requires us to install external solutions to complement it.
 
-## Mas qual usar?
+## But which one should I use?
 
-Se você precisa de uma solução robusta, sem muitas depêndencias externas, com boas práticas já definidas podemos optar pelo Angular (ou outro Framework).
-Já se faremos uma aplicação menor e em busca de alta performance, talvez o React seja a melhor opção.
-Outro ponto a ser levado em consideração é a curva de aprendizado. Pelo Angular já ter diversas definições, além de aprender a usá-lo, precisamos aprender
-sua arquitetura, padrões de boas práticas entre outras coisas que tornam a curva maior, já no React a curva é muito menor e intuitiva, pois basicamente precisamos
-aprender a usar apenas seus recursos.
+If you need a robust solution, without many external dependencies, with best practices already defined, we can go with Angular (or another Framework).
+If we're building a smaller application and looking for high performance, React might be the better option.
+Another point to consider is the learning curve. Because Angular already has many built-in conventions, beyond learning to use it, we also need to learn
+its architecture, best practice patterns, and other things that make the curve steeper — whereas in React the curve is much smaller and more intuitive, since we basically just need
+to learn how to use its own features.

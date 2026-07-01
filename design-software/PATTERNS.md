@@ -1,12 +1,12 @@
-# Padrões de design para programação
+# Design Patterns for Programming
 
 <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/pattern.gif" />
 
-Os softwares mudam e precisam de manutenção. Seguindo um padrão fica muito mais fácil de entender um código do zero (desde que ele tenha sido escrito seguindo um padrão).
+Software changes and needs maintenance. Following a pattern makes it much easier to understand a codebase from scratch (as long as it was written following a pattern).
 
-O temos 23 padrões oficiais que são divididos em três grupos, e são eles:
+There are 23 official patterns divided into three groups:
 
-- Padrão de criação
-- Padrão de estrutura
-- Padrão de comportamento 
+- Creational patterns
+- Structural patterns
+- Behavioral patterns
 

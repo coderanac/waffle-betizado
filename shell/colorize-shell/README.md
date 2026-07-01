@@ -1,3 +1,3 @@
-# Aprendendo comandos internos do Bash
+# Learning Bash Built-in Commands
 
-Aqui vou colocar estudos que farei sobre terminais. Começando pelo Bash.
+Here I'll put studies I'll do about terminals. Starting with Bash.

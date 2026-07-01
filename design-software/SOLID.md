@@ -1,41 +1,41 @@
 # SOLID
 
-SOLID são 5 princípios da Programação Orientada a Objetos ([POO](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos)).
-Ele foi criado para nos ajudar a organizar e manter nossos códigos. Deixando ele mais objetivo e menos exposto a erros.
+SOLID is a set of 5 principles of Object-Oriented Programming ([OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)).
+It was created to help us organize and maintain our code, making it more focused and less prone to errors.
 <div style="align: center">
   <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/Solid.png" />
 </div>
 
-### S (SRP - Single Responsability principle)
+### S (SRP - Single Responsibility Principle)
 
 <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/single.gif" />
 
-Esse é o princípio da responsabilidade única, ou seja, uma classe só deve ter uma responsabilidade e um único motivo para existir. Por exemplo:
-Se eu tenho um banco e nele eu guardo quem é meu cliente e qual é o cartão dele, posso ter uma classe que cria esse cliente e uma para o cartão, mas se apenas uma classe
-é responsável por esses dois trabalhos está errado segundo o SOLID, porque deixamos de ter um código limpo.
+This is the single responsibility principle — a class should have only one responsibility and a single reason to exist. For example:
+If I have a bank and in it I store who my client is and what their card is, I can have one class that creates the client and one for the card, but if a single class
+is responsible for both of these jobs that is wrong according to SOLID, because we lose clean code.
 
-### O (OCP - Open-close principle)
+### O (OCP - Open-Closed Principle)
 
 <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/open-close.gif" />
 
-Esse princípio diz que objetos e entidades devem estar abertos à extensões e fechados para alterações. Que sempre que tivermos uma nova coisa a ser adicionada deveremos
-extender e não modificar o código fonte. Isso é para evitar Bugs em um código que já está funcionando.
+This principle states that objects and entities should be open for extension and closed for modification. Whenever there is something new to be added, we should
+extend rather than modify the source code. This prevents bugs in code that is already working.
 
-*** em alguns casos podemos substituir o método por uma interface.
+*** in some cases we can replace the method with an interface.
 
 <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/soup-letter.gif" />
 
 ### L (LSP - Liskov Substitution Principle)
 
-"As classes derivadas devem ser substituíveis por suas classes bases"
+"Derived classes must be substitutable for their base classes."
 
-O LSP nos alerta sobre a utilização de heranças e está diretamente ligado com o OCP.
+The LSP warns us about the use of inheritance and is directly linked to the OCP.
 
 ### I (ISP - Interface Segregation Principle)
 
-Princípio da segregação da interface diz que uma classe não deve ter interfaces que não vai usar. É melhor ela ter uma interface específica do que uma genérica que não
-usará toda.
+The interface segregation principle states that a class should not have interfaces it won't use. It is better to have a specific interface than a generic one that
+won't be fully used.
 
 ### D (DIP - Dependency Inversion Principle)
 
-O princípio da inversão de dependência, diz que a aplicação deve depender de abstrações e não de implementações. Reduzir aclopamento de classe.
+The dependency inversion principle states that the application should depend on abstractions and not on implementations. Reduce class coupling.

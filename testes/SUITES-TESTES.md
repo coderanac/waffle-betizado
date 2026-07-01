@@ -1,38 +1,38 @@
-# Suites de Testes
+# Test Suites
 
-### Suítes e Describes
+### Suites and Describes
 
 <p align="center">
   <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/suite.gif" />
 </p>
 
-Imagine que você tem o arquivo `diz-ola.js` e deseja testá-lo. Então você cria o `diz-ola.spec.js`. Nele você faz os importes ou requires do que precisará para
-testar suas funções. 
+Imagine you have the file `say-hello.js` and want to test it. So you create `say-hello.spec.js`. In it you do the imports or requires of everything you'll need to
+test your functions.
 
-Então o próximo passo é chamar o método `describe`. Ele cria um conjunto de testes, esse conjunto é chamado de `suite`. Os describes recebem uma string com o 
-nome da suíte de testes e uma função que define as suítes internas e specs.
+The next step is to call the `describe` method. It creates a group of tests — this group is called a `suite`. Describes receive a string with the
+name of the test suite and a function that defines the inner suites and specs.
 
-Exemplo:
+Example:
 
 ~~~
-describe('dizOla', () => {
- //aqui estarão as suítes e specs
+describe('sayHello', () => {
+ // suites and specs go here
 });
 ~~~
 
-### Specs e its
+### Specs and its
 
 <p align="center">
   <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/it.gif" />
 </p>
 
-Agora dentro do describe vamos chamar o método `it`, que vai ser quem de fato será executado. Ele recebe uma string  que descreve o que se espera quando algo for execurado (`should/when`), essa descrição se chama `spec`, e uma função que recebe o código de teste.
+Now inside the describe we call the `it` method, which is what actually gets executed. It receives a string describing what is expected when something is executed (`should/when`) — this description is called a `spec` — and a function that contains the test code.
 
-Exemplo: 
+Example:
 
 ~~~
-it('Espera que diga olá quando receber um nome', () => {
- //aqui estarão os códigos de teste
+it('Expects to say hello when it receives a name', () => {
+ // test code goes here
 };
 ~~~
 
@@ -42,10 +42,10 @@ it('Espera que diga olá quando receber um nome', () => {
   <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/expectations.gif" />
 </p>
 
-O expect é o que você espera que aconteça quando você executar aquele teste. Por exemplo: quando o método `dizOla` recebe um nome, se espera que ele retorne o nome recebido.
+The `expect` is what you expect to happen when you run that test. For example: when the `sayHello` method receives a name, you expect it to return the received name.
 
 ~~~
-expect(dizOla('Carol')).to.be.a('Carol);
+expect(sayHello('Carol')).to.be.a('Carol');
 ~~~
 
 
@@ -55,65 +55,65 @@ expect(dizOla('Carol')).to.be.a('Carol);
   <img width="300px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/matcher.gif" />
 </p>
 
-Os `matchers` podem também ser chamados de asserts. É ele que verifica se a execução do método teve o resultado que você esperava.
+`Matchers` can also be called asserts. They verify whether the execution of the method produced the result you expected.
 
 ~~~
-expect(dizOla(Nome)).verifico.se.são.igual('Olá, Carol');
+expect(sayHello(name)).check.if.they.equal('Hello, Carol');
 ~~~
 
-Existem vários tipos de matchers:
+There are several types of matchers:
 
-- Os que verificam se são exatamente iguais
-- Verifica se são diferentes
-- Se um array ou objeto contém um valor esperado
+- Those that check for exact equality
+- Those that check for inequality
+- Whether an array or object contains an expected value
 
-Entre vários outros tipos de matchers.
+Among many other types of matchers.
 
-### Setups e teardown/hooks
+### Setups and teardown/hooks
 
 <p align="center">
   <img width="300px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/setup.gif" />
 </p>
 
-Os `setups` são organizações de métodos que serão usados na execução dos testes. Ele recebe `hooks`.
-Os hooks são códigos rodados a partir de alguma ação. Eles servem para evitar códigos replicados. Ele pode ser usado para criar métodos que devem ser executados antes de cada teste, ou limpar e reescrever váriaveis das suítes antes de cada execução.
+`Setups` are organizations of methods that will be used during test execution. They receive `hooks`.
+Hooks are pieces of code run in response to some action. They serve to avoid duplicated code. They can be used to create methods that should run before each test, or to clear and reset suite variables before each execution.
 
-Imagine que o meu arquivo `diz-ola.js` tem uma função chamada `dizOla` que recebe um nome e outra função chamada `dizTchau` que recebe um nome e diz "Tchau {Nome}".  
-Para evitar escrever duas variáveis com o nome, eu posso usar o hook para servir as duas e restaurá-la a cada uso para evitar erros. 
+Imagine that my `say-hello.js` file has a function called `sayHello` that receives a name and another function called `sayBye` that receives a name and says "Bye, {Name}".  
+To avoid writing two variables with the name, I can use a hook to serve both and restore it after each use to prevent errors.
 
 
-#### Tipos de Hooks
-
-~~~
-before(() => {roda uma vez antes do bloco});
-
-after(() => {roda uma vez depois do bloco});
-
-beforeEach(() => {roda uma vez antes de CADA bloco});
-
-afterEach(() => {roda uma vez depois de CADA bloco});
-~~~
-
-Exemplo: 
+#### Hook Types
 
 ~~~
-//setup
+before(() => { runs once before the block });
+
+after(() => { runs once after the block });
+
+beforeEach(() => { runs once before EACH block });
+
+afterEach(() => { runs once after EACH block });
+~~~
+
+Example:
+
+~~~
+// setup
 
 beforeEach(() => {
- conts nome = 'Carol';
+ const name = 'Carol';
 });
 
 afterEach(() => {
- nome.restore();
+ name.restore();
 });
 
-//specs
+// specs
 
-it('Espera que diga olá quando receber um nome, () => {
-  expect(dizOla(nome).to.be.a('Olá, Carol');
+it('Expects to say hello when it receives a name', () => {
+  expect(sayHello(name)).to.be.a('Hello, Carol');
 });
 
-it('Espera que diga tchau quando receber um nome, () => {
- expect(diztchau(nome).to.be.a('Tchau, Carol');
+it('Expects to say bye when it receives a name', () => {
+ expect(sayBye(name)).to.be.a('Bye, Carol');
 });
 ~~~

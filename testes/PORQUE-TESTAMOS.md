@@ -1,51 +1,51 @@
-# Por que testar a aplicação?
+# Why test the application?
 
 <p align="center">
   <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/pq-testar.gif" />
 </p>
 
-## Qualidade:
+## Quality:
 
-Quando se testa é possível confirmar características que classificam uma aplicação com qualidade.  
+Testing allows us to confirm characteristics that define a quality application.
 
-- Aplicação
-  - Faz o que deve fazer
-  - Agrega valor
-  - É confiável e segura
-  - É performática
-- O código
-  - É fácil de entender
-  - É adaptativo e escalável 
-  - É reutilizável
-  - É manutenível 
-  - É testável
-  
-## Code review 
+- Application
+  - Does what it's supposed to do
+  - Adds value
+  - Is reliable and secure
+  - Is performant
+- The code
+  - Is easy to understand
+  - Is adaptive and scalable
+  - Is reusable
+  - Is maintainable
+  - Is testable
 
-Seja com TDD os testes normais, sempre que escrevemos testes a gente costuma revizar, pensar e garantir.
+## Code review
 
-- Nomes semânticos
-- Metodos pequenos
-- Metodos com uma única responsabilidade
-- Metodos fáceis de testar
-- Métodos sem comentários: código legível não precisa de comentário
-- Evitar débitos técnicos
+Whether with TDD or normal tests, whenever we write tests we tend to review, think, and ensure quality.
 
-## Por que testar?
+- Semantic names
+- Small methods
+- Methods with a single responsibility
+- Methods that are easy to test
+- Methods without comments: readable code doesn't need comments
+- Avoid technical debt
 
-- Reduzir tempo de análise
-- Encontrar bugs
-- Refatoração
-- Gera descrição de cada método **
-- Reduz código redundante
-- Garante qualidade
+## Why test?
 
-** assim não é necessário reler a aplicação toda, facilita na manutenção e na integração de outros devs no projeto.
+- Reduce analysis time
+- Find bugs
+- Refactoring
+- Generates a description of each method **
+- Reduces redundant code
+- Ensures quality
 
-## Conclusão
+** this way there's no need to re-read the entire application, making maintenance and onboarding of other devs on the project easier.
 
-Como desenvolvedores devemos nos preocupar em entregar aplicações concisas, seguras, que agreguem valores e que não arraste consigo débitos técnicos.
-Os testes são uma forma de garantir isso. Um código testado é revisado, refatorado, livrado de bugs e assim garantimos uma aplicação que entregue um real valor.  
-Testes bem escritos geram valor não apenas para o cliente, mas também para o time de desenvolvimento que recebe uma "documentação" da aplicação: Método X deveria
-fazer isso", além de encontrarem códigos legíveis.  
-E sempre é bom lembrar: teste 100% não significa teste bom. 
+## Conclusion
+
+As developers we should care about delivering concise, secure applications that add value and don't carry technical debt.
+Tests are one way to guarantee this. Tested code is reviewed, refactored, free of bugs, and in this way we guarantee an application that delivers real value.  
+Well-written tests generate value not only for the client, but also for the development team, which receives a kind of "documentation" of the application: "Method X should
+do this" — on top of finding readable code.  
+And it's always good to remember: 100% test coverage doesn't mean good tests.

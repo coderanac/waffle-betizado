@@ -1,13 +1,13 @@
-# Ferramenta para testes 
- 
+# Testing Tools
+
 ### Mocha
 
 <p align="center">
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/mocha.gif" />
 </p>
 
-Com o Mocha consigo fazer testes `assíncronos`. Ele é uma estrutura de códigos Javascripts que pode ser rodado no `node.js` e nos `browsers`. Ele tem sua execução
-sincrona.
+With Mocha you can write `asynchronous` tests. It is a JavaScript code framework that can run on `node.js` and in `browsers`. Its execution is
+synchronous.
 
 ### Chai
 
@@ -15,15 +15,14 @@ sincrona.
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/chai.gif" />
 </p>
 
+Chai is an assertion library that can be used with any JavaScript testing framework. It has a readable and clear interface.
 
-O chai é uma biblioteca para asserts e pode ser usada em qualquer estrutura de testes Javascript. Ele tem uma interface legível e clara.
-
-Exemplo de Mocha usando Chai:
+Example of Mocha using Chai:
 
 ~~~
-describe('dizOla', () => {
-  it('Should him to say hello when he gets a name', () => {
-    expect(dizOla('Carol')).to.be.a('Carol');
+describe('sayHello', () => {
+  it('Should say hello when it gets a name', () => {
+    expect(sayHello('Carol')).to.be.a('Carol');
   });
 });
 ~~~
@@ -34,22 +33,21 @@ describe('dizOla', () => {
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/spies.gif" />
 </p>
 
+SinonJS is a library of spies, stubs, and mocks for unit tests. It works with any unit testing framework.
 
-O SinonJS é uma biblioteca de spies, stubs e mocks para testes unitários. E funciona com qualquer ferramenta de testes unitários.
-
-Exemplo: 
+Example:
 
 ~~~
 expectedName = { name: 'Carol' };
 
-const bd = sinon.mock(Database);
+const db = sinon.mock(Database);
 
-bd.expects('save').once().withArgs(expectedName);
+db.expects('save').once().withArgs(expectedName);
 
-dizOla(expectedName, () => {});
+sayHello(expectedName, () => {});
 
-bd.verify();
-bd.restore();
+db.verify();
+db.restore();
 ~~~
 
 ### Jest
@@ -58,15 +56,14 @@ bd.restore();
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/jest.gif" />
 </p>
 
+Jest is a testing framework for JavaScript. Unlike Mocha, it already ships with its own matchers, asserts, setups, mocks, and other resources needed to
+develop complete tests. Mocha, on the other hand, requires external resources such as Chai, Sinon, and Nock.
 
-Jest é framework para testes em Javascript. Ao contrário do Mocha, ele já tem seus próprios matchers, asserts, setups, mocks e outros recursos necessários para
-desenvolver os testes completos. Já o Mocha precisa de recursos externos como Chai, Sinon e Nock.
-
-Exemplo:
+Example:
 
 ~~~
-test('dizOla', () => {
-  expect(dizOla('Carol')).toBe('Olá, Carol');
+test('sayHello', () => {
+  expect(sayHello('Carol')).toBe('Hello, Carol');
 });
 ~~~
 
@@ -76,16 +73,15 @@ test('dizOla', () => {
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/jasmine.gif" />
 </p>
 
+Jasmine is a testing framework that follows the BDD (behavior-driven) testing concept for testing JavaScript. It also has a very
+clean and concise syntax.
 
-Jasmine é um framework de testes que segue o conceito de testes BDD (orientado a comportamento) para testar Javascript. Ela também tem uma sintaxe bem 
-limpa e objetiva.
-
-Exemplo:
+Example:
 
 ~~~
-describe('diz ola', () => { 
-  it('Should him to say hello when he gets a name', () => { 
-    expect(dizOla()).toEqual('Olá!'); 
+describe('say hello', () => {
+  it('Should say hello when it gets a name', () => {
+    expect(sayHello()).toEqual('Hello!');
   });
 });
 ~~~
@@ -96,10 +92,9 @@ describe('diz ola', () => {
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/nock.gif" />
 </p>
 
+NockJS is a NodeJS library that mocks HTTP requests. It is used to intercept a request and simulate a response.
 
-O NockJS é uma lib para NodeJS que moca requisições HTTP. Ele é usado para interceptar uma requisição e simular um retorno.
-
-Exemplo:
+Example:
 
 ~~~
 import axios from 'axios';
@@ -118,7 +113,7 @@ test('can fetch test response', async t => {
 })
 ~~~
 
-## Testes End-to-End
+## End-to-End Tests
 
 <p align="center">
  <img width="400px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/e2e.gif" />
@@ -127,23 +122,23 @@ test('can fetch test response', async t => {
 
 ### Selenium
 
-O Selenium é uma ferramenta para simular o navegador, com ele você consegue executar qualquer tipo de teste que dependa de um browser para ser
-executado, como por exemplo: os testes end-to-end. Além de ser extremamente completo, ele também suporta diversas linguagens como C#, Java, Python, Perl. Além de
-possuir sua própria IDE.
+Selenium is a tool for simulating the browser. With it you can run any type of test that requires a browser to
+execute, such as end-to-end tests. On top of being extremely complete, it also supports multiple languages like C#, Java, Python, and Perl, and has
+its own IDE.
 
-### Protactor
+### Protractor
 
-Agora entrando em testes end-to-end (e2e). O Protactor serve para fazer testes de UI, ele simula a navegação de um usuário e metrifica e registra os testes.
-Ele é usado para fazer testes e2e no framework Angular.
+Moving on to end-to-end (e2e) tests. Protractor is used to run UI tests — it simulates a user's navigation and records and measures the tests.
+It is used to run e2e tests in the Angular framework.
 
 ### Cypress
 
-Assim como o Protactor, o Cypress é usado para testes end-to-end. Suas principais diferenças é que o Cypress não precisa do selenium, toda a arquitetura usada é
-própria visando melhorar a performance dos testes, e que o Cypress roda em todos os frameworks front end.
+Like Protractor, Cypress is used for end-to-end tests. Its main differences are that Cypress doesn't require Selenium — its entire architecture is
+its own, aimed at improving test performance — and that Cypress runs on all front-end frameworks.
 
 ### Cucumber
 
-Cucumber é um software para desenvolvimento de testes. Tem sua prórpia linguagem e fornece testes para diversas linguagens de programação: javascript, java, ruby,
-php, lua...
-Ele é focado em testes BDD.
+Cucumber is a software for test development. It has its own language and provides test support for many programming languages: JavaScript, Java, Ruby,
+PHP, Lua...
+It is focused on BDD testing.
 

@@ -1,40 +1,40 @@
-# Tipos de testes
+# Types of Tests
 
-## Testes unitários
+## Unit Tests
 
-Teste simples e automatizado para provar o comportamento de um método.
+Simple automated test to prove the behavior of a method.
 
-- Precisa de mocks para serviços externos
-- São independetes
-- Verifica se o método funciona como deveria
+- Requires mocks for external services
+- Are independent
+- Verifies whether the method works as expected
 
-Exemplo:
+Example:
 
-Imagine uma função que deve retornar `"Olá, {Nome}!"` e eu quero testar se tenho esse retorno quando chamo ela, então eu posso chama-lá passando um nome fake
-e ver se o resultado obtido é o mesmo que eu esperava. Exemplo:
+Imagine a function that should return `"Hello, {Name}!"` and I want to test whether I get that return when I call it, so I can call it passing a fake name
+and see if the result obtained matches what I expected. Example:
 
 ~~~
-olaNome('Carol') // return "Olá, Carol!"
-~~~  
+helloName('Carol') // return "Hello, Carol!"
+~~~
 
-## Testes de integração
+## Integration Tests
 
-Teste para validar se os serviços estão funcionando em conjunto.
+Test to validate whether services are working together.
 
-- Não usa mocks
-- Usa o retorno reais dos serviços para validar
+- Does not use mocks
+- Uses real return values from services to validate
 
-Exemplo:
+Example:
 
-Agora imagine que eu tenho uma função chamada `printaNome` que quando um usuário escreve seu nome no popup, chama a função `olaNome` e printa na tela o retorno da `olaNome`. Então eu vou testar se a `printaNome` pega o nome certo para passar para a `olaNome`, se o retorno da `olaNome` é o esperado e por fim se estou conseguindo printar na tela. Eu testei o componente funcionando como um todo com valores e retornos reais.
+Now imagine I have a function called `printName` that, when a user types their name in a popup, calls the `helloName` function and prints its return to the screen. I'll test whether `printName` picks up the right name to pass to `helloName`, whether the return from `helloName` is what's expected, and finally whether I'm successfully printing it on the screen. I tested the component working as a whole with real values and returns.
 
-## Testes e2e
+## e2e Tests
 
-Teste para analizar a parte externa da aplicação, a usabilidade.
+Test to analyze the external part of the application — its usability.
 
-- Valida o fluxo de funcionamento da aplicação
+- Validates the application's operational flow
 
-## Diferença entre unitário, integrado e e2e
+## Difference between unit, integration, and e2e
 
 <p align="center">
   <img width="300px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/unit.gif" />
@@ -42,61 +42,61 @@ Teste para analizar a parte externa da aplicação, a usabilidade.
   <img width="300px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/e2e.gif" />
 </p>
 
-O unitário moca os serviços, ele testa apenas a função como uma unidade. Já o integrado testa se o método ou componente está funcionando bem em conjunto com suas dependências. E o e2e já traz o teste de usabilidade, da navegação propriamente dita. 
+Unit tests mock services and test only the function as a unit. Integration tests check whether the method or component is working well alongside its dependencies. e2e tests cover usability and navigation itself.
 
-Exemplo:
+Example:
 
-Agora quero testar se quando eu abro meu site aparece um popup perguntando meu nome e se quando eu escrevo meu nome e envio, recebo um olá com meu nome na tela. Isso é um teste e2e.
+Now I want to test whether, when I open my website, a popup appears asking for my name, and whether when I type my name and submit, I receive a greeting with my name on screen. That is an e2e test.
 
-## Diferenças entre BDD e TDD 
+## Differences between BDD and TDD
 
 <p align="center">
   <img width="600px" src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/tdd-vs-bdd.png" />
 </p>
 
-O TDD (Test Driven Development) é uma metodologia de desenvolviment de softwares que visa escrever primeiro testes e, posteriormente, funções que passem nesses testes. O BDD (Behavior Driven Development) é uma técnica de desenvolvimento ágil que pratica apresentar ao desenvolvedor o comportamento esperado de uma feature x e deixar que ele escolha a melhor forma de implementa-lá, e assim como no TDD primeiro se escrevem os testes e posteiormente códigos. A diferença entre os dois é que no TDD a função é definida, no BDD o comportamento é definido, mas a escolha da forma de execução é de responsabilidade do Dev. 
+TDD (Test Driven Development) is a software development methodology that aims to write tests first, and only then write functions that pass those tests. BDD (Behavior Driven Development) is an agile development technique that presents the developer with the expected behavior of a given feature and lets them choose the best way to implement it — and just like in TDD, tests are written first and code comes after. The difference between the two is that in TDD the function is defined, while in BDD the behavior is defined, but the choice of how to execute it is the developer's responsibility.
 
-### TDD - red-green-refactor 
+### TDD - red-green-refactor
 
-- Você cria um teste para uma função
-- Ele falha porque você está testando algo que não funciona
-- Então você escreve um teste "burrinho" só para passar no teste
-- E agora é hora de refatorar: melhorar o código e transformá-lo num código muito inteligente
+- You create a test for a function
+- It fails because you're testing something that doesn't work yet
+- Then you write a "dumb" implementation just to make the test pass
+- Now it's time to refactor: improve the code and turn it into something truly good
 
-Vantagens: um design de código muito mais clean e livre de redundâncias e um código muito mais escalável e mutável.
+Advantages: a much cleaner code design, free of redundancies, and much more scalable and flexible code.
 
 ### BDD give-when-then
 
-- Estado inicial, ações, entregas esperadas
-- Envolve todos os responsáveis pelo produto
-- Deve ter requisitos legíveis
-- Os requisitos devem ser convertidos em testes executáveis
-- Usa mocks para os testes para os recursos que ainda não foram escritos
+- Initial state, actions, expected outcomes
+- Involves everyone responsible for the product
+- Must have readable requirements
+- Requirements must be converted into executable tests
+- Uses mocks for tests of features that haven't been written yet
 
-Dan, o criador do BDD, diz que ela é uma evolução do TDD. Para ele o desenvolvimento deveria ir muito além das pessoas técnicas e juntar todas as pessoas envolvidas no produto.
+Dan, the creator of BDD, says it is an evolution of TDD. For him, development should go far beyond the technical team and bring together everyone involved in the product.
 
-## Teste funcional ou não funcional
+## Functional or non-functional tests
 
-### Testes funcionais ou caixa preta
+### Functional tests or black-box tests
 
-Entra nesse conceito todos os que testam comportabilidade (entradas e saídas)
+This concept covers all tests that test behavior (inputs and outputs):
 
-- Testes unitários
-- Testes de integração
-- Testes de aceitação
-- Testes de sistemas
+- Unit tests
+- Integration tests
+- Acceptance tests
+- System tests
 
-### Testes não funcionais
+### Non-functional tests
 
-O conceito de testes não funcionais se refere a todos os testes que não estão relacionados a comportamentos funcionais. Alguns exemplos do que entra como teste não funcional:
+The concept of non-functional tests refers to all tests that are not related to functional behavior. Some examples of non-functional tests:
 
-- Desempenho
 - Performance
-- Se a UI é intuitiva e fácil de aprender
+- Load/stress testing
+- Whether the UI is intuitive and easy to learn
 
-## :tada: E PRA FINALIZAR :tada:
+## :tada: AND FINALLY :tada:
 
-Usuário não é tester 
+The user is not the tester
 
 <p align="center">
   <img src="https://github.com/coderanac/waffle-betizado/blob/master/assets-waffles/testado-no-ar.gif" />
